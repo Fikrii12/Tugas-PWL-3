@@ -1,0 +1,21 @@
+.mybg{
+     height: 200vh;
+     background: url("../image/bg.jpg");
+}
+.judul{
+     
+     height: 200px;
+     display: flex;
+     justify-content: end;
+     align-items: end;
+}
+
+.title{
+     font-size: 3rem;
+     font-weight: 800;
+     letter-spacing: 4px;
+}
+
+.boxMusik{
+     margin-bottom: 20px;
+}

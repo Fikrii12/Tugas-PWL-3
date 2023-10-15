@@ -3,7 +3,7 @@
      background: url("../image/bg.jpg");
 }
 .mybg{
-     height: 100vh;
+     height: auto;
      background: url("../image/bg.jpg");
 }
 .judul{
@@ -39,4 +39,22 @@
      -moz-border-radius: 8px;
      -ms-border-radius: 8px;
      -o-border-radius: 8px;
+}
+.kotak-pesan{
+     width: 500px;
+     background: rgba(14, 48, 110, 0.6);
+     padding: 20px;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+}
+
+.tombol-pesan{
+     margin-right: 100px;
+}
+
+.jumlah{
+     font-size: 40px;
 }

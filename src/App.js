@@ -6,6 +6,7 @@ import Kontak from './pages/kontak';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home />}></Route>
         <Route path='/Tentang' element={<Tentang />}></Route>
         <Route path='/Kontak' element={<Kontak />}></Route>
+       
       </Routes>
     </Router>
   );

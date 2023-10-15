@@ -61,12 +61,12 @@ const Content = () => {
 
       <div className="row justify-content-center align-item-center daftar-barang">
         {product.map((product) => (
-          <Card style={{ width: "18rem", margin: "15px" }} key={product.id}>
-            <Card.Img variant="top" src={product.image} />
+          <Card style={{ width: "18rem", margin: "15px", backgroundColor: "rgba(14, 48, 110, 0.6)" }} key={product.id}>
+            <Card.Img  variant="top" src={product.image} />
             <Card.Body>
-              <Card.Title>{product.title}</Card.Title>
-              <Card.Text>{product.description}</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Card.Title className="text-white">{product.title}</Card.Title>
+              <Card.Text className="text-white">{product.description}</Card.Text>
+              <Button variant="primary">BUY</Button>
             </Card.Body>
           </Card>
         ))}

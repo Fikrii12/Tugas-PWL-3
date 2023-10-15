@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# BudiStore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Merupakan website sederhana dibuat menggunakan React Js. Website ini dibuat berdasarkan pada ketentuan tugas 3 yaitu membuat sebuah web sederhana mengunakan React Js. 
 
 ## Available Scripts
 

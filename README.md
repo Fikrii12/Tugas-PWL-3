@@ -21,9 +21,9 @@ Website ini merupakan hasil dari proyek tugas individu 3 yang menggunakan React 
 
 Website ini menerapkan konsep pengelolaan state sederhana menggunakan React Hooks. `useState` digunakan untuk mengelola data pesan yang dikirim melalui formulir.
 
-## Available Scripts
+## API
 
-In the project directory, you can run:
+Website ini menggunakan Fake Store API yang dimana didalam API tersebut terdapat data-data produk seperti baju, celana, jaket, dan lainnya. Pada API tersebut terdapat atribut dari produk yang ada yaitu terdiri dari nama produk, deksripsi produk, dan gambar produk
 
 ### `npm start`
 

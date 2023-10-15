@@ -1,10 +1,29 @@
-# Getting Started with Create React App
+# BudiStore - Website Sederhana dengan React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website ini merupakan hasil dari proyek tugas individu 3 yang menggunakan React JS. Website ini mencakup tiga halaman utama: Beranda, Tentang, dan Kontak.
 
-## Available Scripts
+## Halaman Utama
 
-In the project directory, you can run:
+### Beranda
+- Halaman beranda menyambut pengguna dengan tata letak yang bersih dan informatif.
+- Komponen "Intro" menampilkan pesan penyambutan dan memberikan gambaran singkat tentang tujuan dari BudiStore.
+
+### Tentang
+- Halaman "Tentang" memberikan deskripsi rinci tentang BudiStore.
+- Pengguna dapat mempelajari visi dan misi dari BudiStore, yaitu memberikan pengalaman berbelanja yang menyenangkan dan aman.
+
+### Kontak
+- Halaman "Kontak" menyediakan formulir kontak yang memungkinkan pengguna untuk mengirim pesan kepada BudiStore.
+- Komponen "Form" memungkinkan pengguna untuk memasukkan alamat email, nama, dan pesan mereka.
+- Data yang dimasukkan akan ditangani dengan menggunakan React Hooks, dan penggunaan `useState` memungkinkan pengiriman formulir dan pengelolaan data.
+
+## Pengelolaan State
+
+Website ini menerapkan konsep pengelolaan state sederhana menggunakan React Hooks. `useState` digunakan untuk mengelola data pesan yang dikirim melalui formulir.
+
+## API
+
+Website ini menggunakan Fake Store API yang dimana didalam API tersebut terdapat data-data produk seperti baju, celana, jaket, dan lainnya. Pada API tersebut terdapat atribut dari produk yang ada yaitu terdiri dari nama produk, deksripsi produk, dan gambar produk
 
 ### `npm start`
 

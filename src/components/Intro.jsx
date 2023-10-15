@@ -7,7 +7,7 @@ const Intro = () => {
       <Container className="text-white d-flex justify-content-center align-item-center">
         <Row>
           <Col>
-            <div className="title">MASAK APA AJA BISA</div>
+            <div className="title">SOLUSI KEBUTUHAN ANDA</div>
           </Col>
         </Row>
       </Container>

@@ -6,7 +6,7 @@ const NavigasiBar = () => {
     <div>
       <Navbar variant="dark">
         <Container className="text-white">
-          <Navbar.Brand>MusikPlayer</Navbar.Brand>
+          <Navbar.Brand>BudiStore</Navbar.Brand>
           <Nav>
             <Nav.Link>Home</Nav.Link>
             <Nav.Link>About</Nav.Link>

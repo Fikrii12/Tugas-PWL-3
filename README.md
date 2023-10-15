@@ -1,6 +1,25 @@
-# BudiStore
+# BudiStore - Website Sederhana dengan React JS
 
-Merupakan website sederhana dibuat menggunakan React Js. Website ini dibuat berdasarkan pada ketentuan tugas 3 yaitu membuat sebuah web sederhana mengunakan React Js. 
+Website ini merupakan hasil dari proyek tugas individu 3 yang menggunakan React JS. Website ini mencakup tiga halaman utama: Beranda, Tentang, dan Kontak.
+
+## Halaman Utama
+
+### Beranda
+- Halaman beranda menyambut pengguna dengan tata letak yang bersih dan informatif.
+- Komponen "Intro" menampilkan pesan penyambutan dan memberikan gambaran singkat tentang tujuan dari BudiStore.
+
+### Tentang
+- Halaman "Tentang" memberikan deskripsi rinci tentang BudiStore.
+- Pengguna dapat mempelajari visi dan misi dari BudiStore, yaitu memberikan pengalaman berbelanja yang menyenangkan dan aman.
+
+### Kontak
+- Halaman "Kontak" menyediakan formulir kontak yang memungkinkan pengguna untuk mengirim pesan kepada BudiStore.
+- Komponen "Form" memungkinkan pengguna untuk memasukkan alamat email, nama, dan pesan mereka.
+- Data yang dimasukkan akan ditangani dengan menggunakan React Hooks, dan penggunaan `useState` memungkinkan pengiriman formulir dan pengelolaan data.
+
+## Pengelolaan State
+
+Website ini menerapkan konsep pengelolaan state sederhana menggunakan React Hooks. `useState` digunakan untuk mengelola data pesan yang dikirim melalui formulir.
 
 ## Available Scripts
 

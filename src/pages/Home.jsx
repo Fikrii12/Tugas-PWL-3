@@ -7,7 +7,7 @@ import Content from "../components/Content";
 const Home = () => {
 
   return (
-    <div className="mybg">
+    <div className="mybg-home">
       <NavigasiBar />
       <Intro />
       <Content />

@@ -1,5 +1,9 @@
+.mybg-home{
+     height: auto;
+     background: url("../image/bg.jpg");
+}
 .mybg{
-     height: 200vh;
+     height: 100vh;
      background: url("../image/bg.jpg");
 }
 .judul{
@@ -18,4 +22,21 @@
 
 .boxMusik{
      margin-bottom: 20px;
+}
+
+.cari-barang{
+     height: 150px;
+}
+
+.deks-tentang{
+     background: rgba(14, 48, 110, 0.6);
+     border-radius: 8px;
+     width: 65%;
+     padding: 20px;
+     font-size: 22px;
+     text-align: justify;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
 }

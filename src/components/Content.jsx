@@ -1,16 +1,12 @@
 
 import React, { useState, useEffect } from "react";
 import {
-  Container,
-  Toast,
   Col,
   Row,
   Button,
   Form,
   Card,
 } from "react-bootstrap";
-import NavigasiBar from "../components/NavigasiBar";
-import Intro from "../components/Intro";
 import "../style/landingPage.css";
 import axios from "axios";
 
@@ -44,7 +40,7 @@ const Content = () => {
 
   return (
     <div>
-      <div className="d-flex justify-content-center align-item-center">
+      <div className="d-flex justify-content-center align-item-center cari-barang">
         <Form inline onSubmit={handleSearch}>
           <Row>
             <Col xs="auto">
@@ -63,9 +59,9 @@ const Content = () => {
         </Form>
       </div>
 
-      <div className="row justify-content-center align-item-center">
+      <div className="row justify-content-center align-item-center daftar-barang">
         {product.map((product) => (
-          <Card style={{ width: "18rem", margin: "7px" }} key={product.id}>
+          <Card style={{ width: "18rem", margin: "15px" }} key={product.id}>
             <Card.Img variant="top" src={product.image} />
             <Card.Body>
               <Card.Title>{product.title}</Card.Title>
